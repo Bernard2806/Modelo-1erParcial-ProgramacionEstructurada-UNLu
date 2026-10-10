@@ -1,23 +1,16 @@
-<img align="right" width="150" height="150" src="https://tse1.mm.bing.net/th/id/OIP.PeD3I26BP5f09Ow1OSPLyAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+# Modelo de examen - Primer Parcial
 
-### Repositorio de Ejercicios - Segundo Cuatrimestre UNLu
-###### UNLu - Centro Regional Chivilcoy
-###### Programación Estructurada - 2025
-###### Profesores: Adriana Nanini y Costanza Campagnon
+Modelo de examen del primer parcial de **Programación I - Programación Estructurada (11074 - 11274)**, UNLu.
 
----
-
-## Descripción
-
-Ejercicios resueltos en lenguaje C correspondientes a la materia Programación Estructurada. Cada ejercicio está en su propia carpeta y contiene un único archivo fuente.
+Cada consigna del parcial tiene su propia carpeta con un único archivo fuente en C. La consigna completa está en `Prog. Estructurada - 1er Parcial Modelo.pdf`.
 
 ## Estructura
 
 ```
 .
-├── C1/main.c                                   # Largo de una cadena
-├── C2/main.c                                   # Carga de matriz cuadrada y restas por columna
-├── C3/main.c                                   # Caracteres iguales consecutivos al inicio de dos palabras
+├── C1/main.c                                   # Consigna 1: largo de una cadena mediante punteros
+├── C2/main.c                                   # Consigna 2: matriz cuadrada, carga y resta por columna
+├── C3/main.c                                   # Consigna 3: caracteres iguales consecutivos al inicio de dos palabras
 ├── Prog. Estructurada - 1er Parcial Modelo.pdf # Consigna del primer parcial
 ├── AGENTS.md                                   # Reglas para agentes de IA y colaboradores
 └── CLAUDE.md                                   # Importa AGENTS.md para Claude Code
@@ -40,6 +33,6 @@ gcc C1/main.c -o C1/main.exe
 .\C1/main.exe
 ```
 
-Reemplazá `C1` por `C2` o `C3` para compilar otro ejercicio.
+Reemplazá `C1` por `C2` o `C3` para compilar otra consigna.
 
 Los ejecutables generados están excluidos por `.gitignore`.
