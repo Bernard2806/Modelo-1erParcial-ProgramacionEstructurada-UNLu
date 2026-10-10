@@ -43,7 +43,3 @@ gcc C1/main.c -o C1/main.exe
 Reemplazá `C1` por `C2` o `C3` para compilar otro ejercicio.
 
 Los ejecutables generados están excluidos por `.gitignore`.
-
-## Contribuir
-
-Los commits siguen [Conventional Commits](https://www.conventionalcommits.org/) en español. El formato, los tipos permitidos y las demás reglas están en [`AGENTS.md`](AGENTS.md).
