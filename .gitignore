@@ -1,6 +1,12 @@
 .vscode/
 
-# Ejecutables compilados
+# Ejecutables compilados (Linux/macOS y Windows)
 C1/main
 C2/main
 C3/main
+C1/main.exe
+C2/main.exe
+C3/main.exe
+*.exe
+*.o
+*.out
